@@ -123,7 +123,7 @@ export default function Hero() {
     textShadow: "0 0 20px rgba(0, 191, 255, 0.5)"
   }}
 >
-  Pathmanathan
+  Hey there I'm,
 </motion.span>
 
     <br />
@@ -137,7 +137,7 @@ export default function Hero() {
         textShadow: "0 0 20px rgba(255, 215, 0, 0.5)"
       }}
     >
-      KRISHOGARAN
+      P.KrishoGaran
     </motion.span>
   </h1>
 </motion.div>

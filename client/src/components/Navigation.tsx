@@ -23,7 +23,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center">
           <div className="text-2xl font-bold text-gradient-developer cursor-pointer"
                onClick={() => scrollToSection('hero')}>
-           
+           Retro Style
           </div>
           
           <div className="hidden md:flex space-x-8">

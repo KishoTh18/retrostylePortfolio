@@ -137,7 +137,7 @@ export default function Hero() {
     textShadow: "0 0 20px rgba(255, 215, 0, 0.5)",
   }}
 >
-  Pathmanathan KrishoGaran
+  PATHMANATHAN KRISHOGARAN
 </motion.span>
 
 

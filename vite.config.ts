@@ -1,12 +1,17 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
+import { fileURLToPath } from "url";
+
+// Fix __dirname in ES module scope
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Set your GitHub repo name here
-const repoName = "portfolio";
+const repoName = "retrostylePortfolio";
 
 export default defineConfig({
-  base: "/retrostylePortfolio/", // 👈 Important for GitHub Pages
+  base: `/${repoName}/`, // 👈 Important for GitHub Pages
   plugins: [react()],
   resolve: {
     alias: {

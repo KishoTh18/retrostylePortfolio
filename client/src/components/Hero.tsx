@@ -127,18 +127,20 @@ export default function Hero() {
 </motion.span>
 
     <br />
-    <motion.span
-      className="text-gradient-speaker inline-block"
-      initial={{ y: 50, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 1.2, delay: 1.2 }}
-      whileHover={{
-        scale: 1.05,
-        textShadow: "0 0 20px rgba(255, 215, 0, 0.5)"
-      }}
-    >
-      P.KrishoGaran
-    </motion.span>
+<motion.span
+  className="text-gradient-speaker inline-block max-w-full break-words text-3xl md:text-5xl lg:text-7xl"
+  initial={{ y: 50, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{ duration: 1.2, delay: 1.2 }}
+  whileHover={{
+    scale: 1.05,
+    textShadow: "0 0 20px rgba(255, 215, 0, 0.5)",
+  }}
+>
+  Pathmanathan KrishoGaran
+</motion.span>
+
+
   </h1>
 </motion.div>
 
